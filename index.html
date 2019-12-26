@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="land_style.css">
+    <link rel="stylesheet" href="css/land_style.css">
     <title>landing page</title>
 </head>
 <body>
@@ -26,17 +26,17 @@
                                 Plots
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                                <a class="dropdown-item" href="html/max_temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="html/humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="html/cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="html/wind_speed.html">Wind Speed</a>
                               </div>
                              </li>
                                <li class="nav-item active">
-                               <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+                               <a class="nav-link" href="html/comparison.html">Comparison <span class="sr-only">(current)</span></a>
                                </li>
                               <li class="nav-item active">
-                                <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="html/data.html">Data <span class="sr-only">(current)</span></a>
                                </li>
                            </ul>
                          </div>
@@ -49,7 +49,7 @@
                   <div class="box white">
                      <h1 class="head">Summary: Latitude vs. X </h1>
                      <hr>
-                     <img id="img_left" src="earth.png" > <!--#img_left make pic a thumbnali pic and display at left of the text -->
+                     <img id="img_left" src="Images/earth.png" > <!--#img_left make pic a thumbnali pic and display at left of the text -->
                      <p align="justify">  The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
                      <br>
                      <br>
@@ -61,10 +61,10 @@
                           <h3 class="head">Visualizations</h3>
                           <hr>
                           <div id="img_list"> <!--#img_list set the width=2*img_size in order to display a 2x2 grid-->
-                              <a href="cloudiness.html"><img src="l_c.png" class="img_size"/></a>
-                              <a href="humidity.html"><img src="l_h.png" class="img_size" /></a>
-                              <a href="max_temp.html"><img src="l_mf.png" class="img_size" /></a>
-                              <a href="wind_speed.html"><img src="l_w.png" class="img_size"/></a>
+                              <a href="html/cloudiness.html"><img src="Images/l_c.png" class="img_size"/></a>
+                              <a href="html/humidity.html"><img src="Images/l_h.png" class="img_size" /></a>
+                              <a href="html/max_temp.html"><img src="Images/l_mf.png" class="img_size" /></a>
+                              <a href="html/wind_speed.html"><img src="Images/l_w.png" class="img_size"/></a>
                             </div>
                        </div>
                    </div>
